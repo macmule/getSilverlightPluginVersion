@@ -33,7 +33,6 @@
 #
 ####################################################################################################
 
-#!/bin/sh
 
 if [ -e /Library/Internet\ Plug-Ins/Silverlight.plugin ]; then
     result="$(defaults read /Library/Internet\ Plug-Ins/Silverlight.plugin/Contents/Info SilverlightVersion)"
